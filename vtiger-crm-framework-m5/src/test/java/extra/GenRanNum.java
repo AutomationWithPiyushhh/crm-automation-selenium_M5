@@ -2,8 +2,12 @@ package extra;
 
 public class GenRanNum {
 	public static int generateRandomNumber() {
-		double randomDouble = Math.random()*10000;
-		int random = (int) randomDouble;
-		return random;
+		double random = Math.random()*1000;
+		int ran = (int) random;
+		return ran;
+	}
+
+	public static void main(String[] args) {
+	
 	}
 }
