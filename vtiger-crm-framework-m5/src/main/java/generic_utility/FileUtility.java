@@ -13,15 +13,13 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 
 public class FileUtility {
-
-	public String getDataFromPropertiesFile(String key)						 throws IOException {
+	public String getDataFromPropertiesFile(String key)										 throws IOException {
 		FileInputStream fis = new FileInputStream("./src/test/resources/commondata.properties");
 		Properties pObj = new Properties();
 		pObj.load(fis);
 		String value = pObj.getProperty(key);
 		return value;
 	}
-
 	
 	public String getDataFromExcelFile(String sheetName, int rowNum, int cellNum) 					throws EncryptedDocumentException, IOException {
 		FileInputStream fis1 = new FileInputStream("./src/test/resources/testScriptData.xlsx");
