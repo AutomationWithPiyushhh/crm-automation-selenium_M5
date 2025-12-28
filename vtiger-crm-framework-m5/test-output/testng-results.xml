@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-28T18:07:08 IST" name="Default suite" finished-at="2025-12-28T18:07:09 IST" duration-ms="78">
+    <groups>
+    </groups>
+    <test started-at="2025-12-28T18:07:08 IST" name="Default test" finished-at="2025-12-28T18:07:09 IST" duration-ms="78">
+      <class name="testng_extra.DataProviderTest">
+        <test-method signature="printData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng_extra.DataProviderTest@6a6cb05c]" started-at="2025-12-28T18:07:09 IST" name="printData" data-provider="getData" finished-at="2025-12-28T18:07:09 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akshay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anand]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[muzaffarpur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method signature="printData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng_extra.DataProviderTest@6a6cb05c]" started-at="2025-12-28T18:07:09 IST" name="printData" data-provider="getData" finished-at="2025-12-28T18:07:09 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kirti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shakya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bhopal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method signature="printData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng_extra.DataProviderTest@6a6cb05c]" started-at="2025-12-28T18:07:09 IST" name="printData" data-provider="getData" finished-at="2025-12-28T18:07:09 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nikhil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sahu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mahoba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method signature="printData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng_extra.DataProviderTest@6a6cb05c]" started-at="2025-12-28T18:07:09 IST" name="printData" data-provider="getData" finished-at="2025-12-28T18:07:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[riya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tiwari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ayodhya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printData -->
+      </class> <!-- testng_extra.DataProviderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
