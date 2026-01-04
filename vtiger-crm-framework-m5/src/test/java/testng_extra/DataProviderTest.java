@@ -6,9 +6,11 @@ import org.testng.annotations.Test;
 public class DataProviderTest {
 	
 	@Test(dataProvider = "getData")
-	public void printData(String fn, String ln) {
+	public void loginToSauceDemo(String fn, String ln) {
 		System.out.println(fn + " " + ln);
 	}
+	
+//	https://www.saucedemo.com/
 	
 	
 	@DataProvider

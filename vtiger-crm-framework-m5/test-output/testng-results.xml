@@ -1,97 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-28T18:07:08 IST" name="Default suite" finished-at="2025-12-28T18:07:09 IST" duration-ms="78">
+  <suite started-at="2026-01-04T18:06:46 IST" name="Suite" finished-at="2026-01-04T18:07:06 IST" duration-ms="20478">
     <groups>
+      <group name="reg">
+        <method signature="Demo1.case1(java.lang.String)[pri:0, instance:typesOfExe.Demo1@36ebc363]" name="case1" class="typesOfExe.Demo1"/>
+        <method signature="Demo1.case111(java.lang.String)[pri:0, instance:typesOfExe.Demo1@36ebc363]" name="case111" class="typesOfExe.Demo1"/>
+        <method signature="Demo2.case2(java.lang.String)[pri:0, instance:typesOfExe.Demo2@587e5365]" name="case2" class="typesOfExe.Demo2"/>
+        <method signature="Demo2.case22(java.lang.String)[pri:0, instance:typesOfExe.Demo2@587e5365]" name="case22" class="typesOfExe.Demo2"/>
+        <method signature="Demo2.case222(java.lang.String)[pri:0, instance:typesOfExe.Demo2@587e5365]" name="case222" class="typesOfExe.Demo2"/>
+        <method signature="Demo3.case3(java.lang.String)[pri:0, instance:typesOfExe.Demo3@305b7c14]" name="case3" class="typesOfExe.Demo3"/>
+      </group> <!-- reg -->
+      <group name="smoke">
+        <method signature="Demo1.case11(java.lang.String)[pri:0, instance:typesOfExe.Demo1@36ebc363]" name="case11" class="typesOfExe.Demo1"/>
+        <method signature="Demo2.case22(java.lang.String)[pri:0, instance:typesOfExe.Demo2@587e5365]" name="case22" class="typesOfExe.Demo2"/>
+        <method signature="Demo3.case33(java.lang.String)[pri:0, instance:typesOfExe.Demo3@305b7c14]" name="case33" class="typesOfExe.Demo3"/>
+        <method signature="Demo3.case333(java.lang.String)[pri:0, instance:typesOfExe.Demo3@305b7c14]" name="case333" class="typesOfExe.Demo3"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-12-28T18:07:08 IST" name="Default test" finished-at="2025-12-28T18:07:09 IST" duration-ms="78">
-      <class name="testng_extra.DataProviderTest">
-        <test-method signature="printData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng_extra.DataProviderTest@6a6cb05c]" started-at="2025-12-28T18:07:09 IST" name="printData" data-provider="getData" finished-at="2025-12-28T18:07:09 IST" duration-ms="17" status="PASS">
+    <test started-at="2026-01-04T18:06:46 IST" name="Test2" finished-at="2026-01-04T18:06:58 IST" duration-ms="11617">
+      <class name="typesOfExe.Demo2">
+        <test-method signature="case2(java.lang.String)[pri:0, instance:typesOfExe.Demo2@587e5365]" started-at="2026-01-04T18:06:46 IST" name="case2" finished-at="2026-01-04T18:06:50 IST" duration-ms="4186" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[akshay]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[anand]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[muzaffarpur]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printData -->
-        <test-method signature="printData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng_extra.DataProviderTest@6a6cb05c]" started-at="2025-12-28T18:07:09 IST" name="printData" data-provider="getData" finished-at="2025-12-28T18:07:09 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- case2 -->
+        <test-method signature="case22(java.lang.String)[pri:0, instance:typesOfExe.Demo2@587e5365]" started-at="2026-01-04T18:06:50 IST" name="case22" finished-at="2026-01-04T18:06:54 IST" duration-ms="3886" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[kirti]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[shakya]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[bhopal]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printData -->
-        <test-method signature="printData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng_extra.DataProviderTest@6a6cb05c]" started-at="2025-12-28T18:07:09 IST" name="printData" data-provider="getData" finished-at="2025-12-28T18:07:09 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- case22 -->
+        <test-method signature="case222(java.lang.String)[pri:0, instance:typesOfExe.Demo2@587e5365]" started-at="2026-01-04T18:06:54 IST" name="case222" finished-at="2026-01-04T18:06:58 IST" duration-ms="3494" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Nikhil]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sahu]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[mahoba]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printData -->
-        <test-method signature="printData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng_extra.DataProviderTest@6a6cb05c]" started-at="2025-12-28T18:07:09 IST" name="printData" data-provider="getData" finished-at="2025-12-28T18:07:09 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- case222 -->
+      </class> <!-- typesOfExe.Demo2 -->
+    </test> <!-- Test2 -->
+    <test started-at="2026-01-04T18:06:46 IST" name="Test3" finished-at="2026-01-04T18:06:58 IST" duration-ms="11706">
+      <class name="typesOfExe.Demo3">
+        <test-method signature="case3(java.lang.String)[pri:0, instance:typesOfExe.Demo3@305b7c14]" started-at="2026-01-04T18:06:46 IST" name="case3" finished-at="2026-01-04T18:06:50 IST" duration-ms="4014" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[riya]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[tiwari]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ayodhya]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printData -->
-      </class> <!-- testng_extra.DataProviderTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- case3 -->
+        <test-method signature="case33(java.lang.String)[pri:0, instance:typesOfExe.Demo3@305b7c14]" started-at="2026-01-04T18:06:50 IST" name="case33" finished-at="2026-01-04T18:06:54 IST" duration-ms="4087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case33 -->
+        <test-method signature="case333(java.lang.String)[pri:0, instance:typesOfExe.Demo3@305b7c14]" started-at="2026-01-04T18:06:54 IST" name="case333" finished-at="2026-01-04T18:06:58 IST" duration-ms="3527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case333 -->
+      </class> <!-- typesOfExe.Demo3 -->
+    </test> <!-- Test3 -->
+    <test started-at="2026-01-04T18:06:46 IST" name="Test1" finished-at="2026-01-04T18:07:06 IST" duration-ms="20478">
+      <class name="typesOfExe.Demo1">
+        <test-method signature="case1(java.lang.String)[pri:0, instance:typesOfExe.Demo1@36ebc363]" started-at="2026-01-04T18:06:46 IST" name="case1" finished-at="2026-01-04T18:06:54 IST" duration-ms="8226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case1 -->
+        <test-method signature="case11(java.lang.String)[pri:0, instance:typesOfExe.Demo1@36ebc363]" started-at="2026-01-04T18:06:54 IST" name="case11" finished-at="2026-01-04T18:07:01 IST" duration-ms="6749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case11 -->
+        <test-method signature="case111(java.lang.String)[pri:0, instance:typesOfExe.Demo1@36ebc363]" started-at="2026-01-04T18:07:01 IST" name="case111" finished-at="2026-01-04T18:07:06 IST" duration-ms="5457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case111 -->
+      </class> <!-- typesOfExe.Demo1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
 </testng-results>

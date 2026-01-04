@@ -1,28 +1,22 @@
 package organization;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
-import java.util.Properties;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
 
-import extra.GenRanNum;
 import generic_utility.FileUtility;
 
-public class CreateOrganizationTest {
-	public static void main(String[] args) throws InterruptedException, IOException {
-//		get data from properties file
+public class OrgTest {
+	
+	@Test
+	public void createOrgTest() throws IOException, InterruptedException {
 		FileUtility fUtil = new FileUtility();
 
 		String BROWSER = fUtil.getDataFromPropertiesFile("bro");
