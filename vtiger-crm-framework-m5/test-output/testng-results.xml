@@ -1,49 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-11T16:59:54 IST" name="Default suite" finished-at="2026-01-11T17:00:27 IST" duration-ms="32862">
+  <suite started-at="2026-01-11T18:15:47 IST" name="Default suite" finished-at="2026-01-11T18:15:47 IST" duration-ms="59">
     <groups>
     </groups>
-    <test started-at="2026-01-11T16:59:54 IST" name="Default test" finished-at="2026-01-11T17:00:27 IST" duration-ms="32862">
-      <class name="organization.OrgTest">
-        <test-method is-config="true" signature="repConfig()[pri:0, instance:organization.OrgTest@3a52dba3]" started-at="2026-01-11T16:59:54 IST" name="repConfig" finished-at="2026-01-11T16:59:54 IST" duration-ms="9" status="PASS">
+    <test started-at="2026-01-11T18:15:47 IST" name="Default test" finished-at="2026-01-11T18:15:47 IST" duration-ms="59">
+      <class name="advance_report.SocialMedia">
+        <test-method is-config="true" signature="repConfig()[pri:0, instance:advance_report.SocialMedia@ba2f4ec]" started-at="2026-01-11T18:15:47 IST" name="repConfig" finished-at="2026-01-11T18:15:47 IST" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repConfig -->
-        <test-method is-config="true" signature="preCon()[pri:0, instance:organization.OrgTest@3a52dba3]" started-at="2026-01-11T16:59:54 IST" name="preCon" finished-at="2026-01-11T16:59:54 IST" duration-ms="1" status="PASS">
+        <test-method signature="loginToFB()[pri:0, instance:advance_report.SocialMedia@ba2f4ec]" started-at="2026-01-11T18:15:47 IST" name="loginToFB" finished-at="2026-01-11T18:15:47 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- preCon -->
-        <test-method is-config="true" signature="openBro()[pri:0, instance:organization.OrgTest@3a52dba3]" started-at="2026-01-11T16:59:54 IST" name="openBro" finished-at="2026-01-11T16:59:55 IST" duration-ms="1179" status="PASS">
+        </test-method> <!-- loginToFB -->
+        <test-method signature="loginToInsta()[pri:0, instance:advance_report.SocialMedia@ba2f4ec]" started-at="2026-01-11T18:15:47 IST" name="loginToInsta" finished-at="2026-01-11T18:15:47 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBro -->
-        <test-method is-config="true" signature="login()[pri:0, instance:organization.OrgTest@3a52dba3]" started-at="2026-01-11T16:59:55 IST" name="login" finished-at="2026-01-11T16:59:56 IST" duration-ms="946" status="PASS">
+        </test-method> <!-- loginToInsta -->
+        <test-method signature="loginToTwitter()[pri:0, instance:advance_report.SocialMedia@ba2f4ec]" started-at="2026-01-11T18:15:47 IST" name="loginToTwitter" finished-at="2026-01-11T18:15:47 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="createOrgTest()[pri:0, instance:organization.OrgTest@3a52dba3]" started-at="2026-01-11T16:59:56 IST" name="createOrgTest" finished-at="2026-01-11T17:00:24 IST" duration-ms="27710" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrgTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:organization.OrgTest@3a52dba3]" started-at="2026-01-11T17:00:24 IST" name="logout" finished-at="2026-01-11T17:00:26 IST" duration-ms="2790" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBro()[pri:0, instance:organization.OrgTest@3a52dba3]" started-at="2026-01-11T17:00:26 IST" name="closeBro" finished-at="2026-01-11T17:00:27 IST" duration-ms="194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBro -->
-        <test-method is-config="true" signature="postCon()[pri:0, instance:organization.OrgTest@3a52dba3]" started-at="2026-01-11T17:00:27 IST" name="postCon" finished-at="2026-01-11T17:00:27 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCon -->
-        <test-method is-config="true" signature="repBackup()[pri:0, instance:organization.OrgTest@3a52dba3]" started-at="2026-01-11T17:00:27 IST" name="repBackup" finished-at="2026-01-11T17:00:27 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- loginToTwitter -->
+        <test-method is-config="true" signature="repBackup()[pri:0, instance:advance_report.SocialMedia@ba2f4ec]" started-at="2026-01-11T18:15:47 IST" name="repBackup" finished-at="2026-01-11T18:15:47 IST" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repBackup -->
-      </class> <!-- organization.OrgTest -->
+      </class> <!-- advance_report.SocialMedia -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
