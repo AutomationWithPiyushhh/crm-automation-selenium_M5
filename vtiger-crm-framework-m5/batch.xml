@@ -1,24 +1,40 @@
 <suite name="suite">
 	<test name="test">
 		<classes>
-			<class name="typesOfExe.Demo1">
-				<methods>
-					<include name="case1"></include>
-					<include name="case111"></include>
-				</methods>
-			</class>
-
-			<class name="typesOfExe.Demo2">
-				<methods>
-					<include name="case22"></include>
-				</methods>
-			</class>
-
-			<class name="typesOfExe.Demo3">
-				<methods>
-					<include name="case333"></include>
-				</methods>
-			</class>
+			<class name="config_ann.OrgTest" />
+			<class name="config_ann.ContactTest" />
 		</classes>
 	</test>
 </suite>
+
+<!--  
+report config. + db conn
+pre conditions
+
+opening browser
+
+login
+Org Created
+logout
+
+login
+Org Verified
+logout
+
+closing browser
+
+opening browser
+
+login
+Contact Created
+logout
+
+login
+Contact Verified
+logout
+
+closing browser
+
+post condition
+report backup + DB conn close
+ -->

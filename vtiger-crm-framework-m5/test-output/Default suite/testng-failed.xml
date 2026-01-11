@@ -3,12 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng_extra.DOMTest">
+      <class name="organization.OrgTest">
         <methods>
-          <include name="modifyCity"/>
-          <include name="createCity"/>
+          <include name="logout"/>
+          <include name="openBro"/>
+          <include name="preCon"/>
+          <include name="closeBro"/>
+          <include name="postCon"/>
+          <include name="repBackup"/>
+          <include name="login"/>
+          <include name="createOrgTest"/>
+          <include name="repConfig"/>
         </methods>
-      </class> <!-- testng_extra.DOMTest -->
+      </class> <!-- organization.OrgTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
