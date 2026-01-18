@@ -2,7 +2,7 @@ package generic_utility;
 
 public class JavaUtility {
 	public static int genRanNum() {
-		double ran = Math.random() * 999;
+		double ran = Math.random() * 9999;
 		return (int)ran;
 	}
 }

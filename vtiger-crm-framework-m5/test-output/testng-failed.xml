@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="organization.OrgTest">
+      <class name="contact.ContactTest">
         <methods>
           <include name="logout"/>
+          <include name="createConTest"/>
           <include name="openBro"/>
           <include name="preCon"/>
           <include name="closeBro"/>
           <include name="postCon"/>
-          <include name="repBackup"/>
           <include name="login"/>
-          <include name="createOrgTest"/>
+          <include name="repBackup"/>
           <include name="repConfig"/>
         </methods>
-      </class> <!-- organization.OrgTest -->
+      </class> <!-- contact.ContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
